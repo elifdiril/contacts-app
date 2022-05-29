@@ -9,7 +9,7 @@ const List = () => {
 
   return (
     <div>
-      {contacts.map(contact => <Contact key={contact.id} name={contact.name} />)}
+      {contacts.map(contact => <Contact key={contact.id} contact={contact} />)}
     </div>
   );
 };

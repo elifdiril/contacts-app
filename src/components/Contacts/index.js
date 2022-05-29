@@ -4,7 +4,7 @@ import List from "./List";
 
 const Contacts = () => {
   return (
-    <div>
+    <div className="box">
       <Form />
       <List />
     </div>
